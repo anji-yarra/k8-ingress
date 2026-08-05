@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: app-2
-        image: joindevops/app2
+        image: anjiyarra/app2
         ports:
         - containerPort: 80
 ---
@@ -52,7 +52,7 @@ metadata:
 spec:
   ingressClassName: alb
   rules:
-  - host: "app2.daws90s.shop"
+  - host: "app2.anjidevops.online"
     http:
       paths:
       - pathType: Prefix
