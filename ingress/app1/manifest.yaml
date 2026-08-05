@@ -44,7 +44,7 @@ metadata:
   name: app-1
   annotations:
     alb.ingress.kubernetes.io/scheme: internet-facing
-    alb.ingress.kubernetes.io/listen-ports: '[{"HTTPS": 443}]'
+    alb.ingress.kubernetes.io/listen-ports: '[{"HTTP": 80}]'
     alb.ingress.kubernetes.io/certificate-arn: arn:aws:acm:us-east-1:884057990406:certificate/c727fc8e-ee52-4e3e-83a8-0c6f1b49a7a7
     alb.ingress.kubernetes.io/target-type: ip
     alb.ingress.kubernetes.io/tags: Environment=dev,Team=test
